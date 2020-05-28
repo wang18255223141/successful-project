@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>1111</div>
+	<script>
+	var oDiv = document.getElementsByTagName('div')[0];
+	oDiv.onclick=function(){
+		alert(1);
+	}
+	oDiv.onclick=function(){
+		alert(2);
+	}
+
+	oDiv.addEventListener('click',function(){
+		alert(3);
+	});
+	oDiv.addEventListener('click',function(){
+		alert(4);
+	});
+	</script>
+</body>
+</html>

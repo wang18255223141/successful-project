@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		tr{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<button>全部删除</button>
+		<button>选中删除</button>
+		<p><input type="text"><button>搜索</button></p>
+		<!-- table>thead>tr>th*7^^tbody>tr*4>td*7 -->
+		<table border="1" cellspacing="0" width="300">
+			<thead>
+				<tr>
+					<th>
+						<input type="checkbox">全选
+					</th>
+					<th>序列号</th>
+					<th>商品</th>
+					<th>价格</th>
+					<th>产地</th>
+					<th>品牌</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td>1</td>
+			        <td>苹果</td>
+			        <td>20元</td>
+			        <td>海南</td>
+			        <td>000</td>
+					<td><a href="javascript:void(0);" onclick="delOne(this)">删除</a></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td>2</td>
+			        <td>苹果</td>
+			        <td>20元</td>
+			        <td>海南</td>
+			        <td>000</td>
+					<td><a href="javascript:void(0);" onclick="delOne(this)">删除</a></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td>3</td>
+			        <td>苹果</td>
+			        <td>20元</td>
+			        <td>海南</td>
+			        <td>000</td>
+					<td><a href="javascript:void(0);" onclick="delOne(this)">删除</a></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td>4</td>
+			        <td>苹果</td>
+			        <td>20元</td>
+			        <td>海南</td>
+			        <td>000</td>
+					<td><a href="javascript:void(0);" onclick="delOne(this)">删除</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
